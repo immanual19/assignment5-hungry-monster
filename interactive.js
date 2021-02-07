@@ -52,7 +52,7 @@ function showClickedFoodIngredients(){
                         document.getElementById("selected-food-image").setAttribute("src",element.strMealThumb);
                         document.getElementById("selected-food-header").innerText=clickedFoodName;
                         
-                        for (let i=0; i<100; i++) {
+                        for (let i=1; i<100; i++) {
                             const list=document.createElement("li");
                             const measurement= element["strMeasure"+i];
                             const ingredients= element["strIngredient"+i];
